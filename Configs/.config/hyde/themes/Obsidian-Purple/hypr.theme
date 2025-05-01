@@ -1,0 +1,49 @@
+$HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
+#  // P̳r̳a̳s̳a̳n̳t̳h̳ R̳a̳n̳g̳a̳n̳
+
+$GTK_THEME=Obsidian-Purple
+$ICON_THEME = Tela-circle-dracula
+$COLOR_SCHEME = prefer-dark
+$CURSOR_THEME = Bibata-Modern-Classic
+$CURSOR_SIZE=18
+
+# Optional: The varibles above will be set automatically when the theme is loaded
+# This exec commands will soon be deprecated
+
+
+general {
+    gaps_in = 3
+    gaps_out = 8
+    border_size = 2
+    col.active_border = rgba(814DDEff) rgba(372952ff) 45deg
+    col.inactive_border = rgba(05010Cff) rgba(16023Cff) 45deg
+    layout = dwindle
+    resize_on_border = true
+}
+
+group {
+    col.border_active = rgba(814DDEff) rgba(372952ff) 45deg
+    col.border_inactive = rgba(05010Ccc) rgba(16023Ccc) 45deg
+    col.border_locked_active = rgba(FFFFFFff) rgba(C7CAC2ff) 45deg
+    col.border_locked_inactive = rgba(FFFFFFcc) rgba(FFFFFFcc) 45deg
+}
+
+decoration {
+    rounding = 10
+    shadow:enabled = false
+
+    blur {
+        enabled = yes
+        size = 5
+        passes = 5
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+    }
+
+    shadow {
+        enabled = true
+    }
+}
+
+layerrule = blur,waybar
