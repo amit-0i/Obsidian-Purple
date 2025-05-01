@@ -16,9 +16,9 @@ Hyde theme import "Obsidian-Purple" "https://github.com/amit-0i/Obsidian-Purple"
 or 
 ```sh
 hydectl theme import
-```
-and choose Obsidian-Purple
 
+and choose Obsidian-Purple
+```
 ---
 
 or install another theme from [HyDe Gallery](https://github.com/kRHYME7/hyde-gallery)
