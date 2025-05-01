@@ -13,8 +13,9 @@
 ## Installation
 ```sh
 Hyde theme import "Obsidian-Purple" "https://github.com/amit-0i/Obsidian-Purple"
-or 
-```sh
+
+or
+
 hydectl theme import
 
 and choose Obsidian-Purple
