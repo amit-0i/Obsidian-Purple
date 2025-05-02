@@ -5,7 +5,7 @@ $GTK_THEME=Obsidian-Purple
 $ICON_THEME = Tela-circle-dracula
 $COLOR_SCHEME = prefer-dark
 $CURSOR_THEME = Bibata-Modern-Classic
-$CURSOR_SIZE=18
+$CURSOR_SIZE=16
 
 # Optional: The varibles above will be set automatically when the theme is loaded
 # This exec commands will soon be deprecated
