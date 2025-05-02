@@ -28,6 +28,17 @@ hydectl theme import
 
 and choose Obsidian-Purple
 
+
+### Applying SDDM theme
+
+```sh
+
+vim /etc/sddm.conf.d/the_hyde_project.conf
+
+```
+[Theme]
+Current=Obsidian-Purple
+
 ---
 
 or install another theme from [HyDe Gallery](https://github.com/kRHYME7/hyde-gallery)
