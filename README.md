@@ -36,7 +36,7 @@ and choose Obsidian-Purple
 vim /etc/sddm.conf.d/the_hyde_project.conf
 
 ```
-[Theme]
+[Theme] \
 Current=Obsidian-Purple
 
 ---
