@@ -8,18 +8,26 @@
 > [!IMPORTANT]
 > This is not a standalone theme, needs [HyDe](https://github.com/HyDE-Project/HyDE) installed...
 
+## Theme Screenshots
 ![t1](./screenshots/1.png)
 ![t2](./screenshots/2.png)
+
+## SDDM theme screenshot
+![t3](./screenshots/sddm.png)
+
 ## Installation
 ```sh
 Hyde theme import "Obsidian-Purple" "https://github.com/amit-0i/Obsidian-Purple"
+```
 
 or
 
+```sh
 hydectl theme import
+```
 
 and choose Obsidian-Purple
-```
+
 ---
 
 or install another theme from [HyDe Gallery](https://github.com/kRHYME7/hyde-gallery)
