@@ -16,12 +16,13 @@
 ![t3](./screenshots/sddm.png)
 
 ## Installation
+
+For hyprdots (old)
 ```sh
 Hyde theme import "Obsidian-Purple" "https://github.com/amit-0i/Obsidian-Purple"
 ```
 
-or
-
+For HyDE (new)
 ```sh
 hydectl theme import
 ```
@@ -33,7 +34,7 @@ and choose Obsidian-Purple
 
 ```sh
 
-vim /etc/sddm.conf.d/the_hyde_project.conf
+sudo nano /etc/sddm.conf.d/the_hyde_project.conf
 
 ```
 ```
